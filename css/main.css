@@ -522,6 +522,7 @@ section,
 }
 
 
+
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
@@ -585,6 +586,11 @@ section,
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
+
+section .why-us{
+    background: var(--accent-color);
+}
+
 .why-us .box {
   color: var(--contrast-color);
   background: var(--accent-color);
@@ -982,7 +988,7 @@ section,
 .registration-form form {
   background-color: #fff;
   max-width: 600px;
-  min-height: 530px;
+  min-height: 540px;
   margin: 20px auto;
   padding: 30px 50px;
   border-radius: 20px;
